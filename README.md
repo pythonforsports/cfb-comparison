@@ -5,12 +5,12 @@ to FBS/G5/Conference.
 
 ### Dependencies
 * Built using Python 3.6.1
-* pip install dash  # The core dash backend
-* pip install dash-renderer  # The dash front-end
-* pip install dash-html-components  # HTML components
-* pip install dash-core-components  # Supercharged components
-* pip install plotly  # Plotly graphing library used in examples
-* pip install pandas #dataframe analyses
+* pip install dash
+* pip install dash-renderer
+* pip install dash-html-components
+* pip install dash-core-components
+* pip install plotly
+* pip install pandas
 
 ### Getting Started
 * Move all files to local folder
