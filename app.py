@@ -28,6 +28,7 @@ pandas_fb_efficiency = pandas_fb_efficiency[pandas_fb_efficiency.Team != 'TEAM']
 pandas_fb_efficiency.reset_index(drop=True, inplace=True)
 pandas_fb_efficiency.index = pandas_fb_efficiency.index + 1
 pandas_fb_efficiency['Rank'] = pandas_fb_efficiency.index
+pandas_fb_efficiency['Overall'] = pandas_fb_efficiency['Overall'].astype(float)
 
 # Strength of schedule data frame
 sos_df = sos[0]
